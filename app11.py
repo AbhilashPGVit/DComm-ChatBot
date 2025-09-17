@@ -18,6 +18,7 @@ import numpy as np
 # Load environment variables
 load_dotenv()
 st.write(st.secrets.keys())
+st.write(os.environ.get("AZURE_OPENAI_API_KEY"))
 # Page configuration
 st.set_page_config(
     page_title="AI Data Analysis Agent",
